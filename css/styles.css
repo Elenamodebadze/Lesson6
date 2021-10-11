@@ -16,9 +16,16 @@
 	width: 200px;
 	position: absolute;
 	top: 350px;
+	right: 100px;
 	animation: redfish 45s infinite;
 }  
-
+.image-medusa {
+	width: 150px;
+	position: absolute;
+	bottom: 300px;
+	right: 50px;
+	animation: medusa 50s infinite;
+}
 @keyframes turtle {
   0% {left: 0;}
   /*20% {left: 200px;}
@@ -36,3 +43,7 @@
 	100% {right: 1000px;}
 
 }
+@keyframes medusa 
+{
+	0% {bottom: 100px;}
+	100% {1000px}}
